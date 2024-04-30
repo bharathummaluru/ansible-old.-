@@ -1,5 +1,5 @@
 - name: variables
-  hosts: localhosts
+  hosts: localhost
   vars:
     course: "terraform"
     trainer: "Siva"
