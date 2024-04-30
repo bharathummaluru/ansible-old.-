@@ -1,0 +1,7 @@
+- name: variables from files
+  hosts: localhost
+  vars:
+  - vars_yaml
+  tasks:
+  - name: print info
+     msg: "Hi, We are learning {{Course}} from Trainer {{Trainer}}, Duration is {{Duration}}."
